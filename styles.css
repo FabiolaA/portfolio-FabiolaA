@@ -1,0 +1,125 @@
+/*body*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #f0b7a1;
+  background: -webkit-linear-gradient(
+    to right,
+    #f0b7a1 35%,
+    #8c3310 100%,
+    #752201 30%,
+    #bf6e4e 96%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    #f0b7a1 35%,
+    #8c3310 100%,
+    #752201 30%,
+    #bf6e4e 96%
+  );
+  background: linear-gradient(
+    to right,
+    #f0b7a1 35%,
+    #8c3310 100%,
+    #752201 30%,
+    #bf6e4e 96%
+  );
+  font-family: "Times New Roman", Times, serif;
+}
+/*navbar*/
+.nav {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-left: 0;
+  padding: 15px;
+}
+.espacio {
+  margin-bottom: 100px;
+}
+.fondo {
+  color: black;
+}
+.fondo:hover {
+  color: coral;
+}
+/*nombre y foto*/
+.me {
+  border-radius: 50%;
+  border-color: transparent;
+}
+h1 {
+  text-align: center;
+}
+/*fin nombre y foto*/
+/*portfolio*/
+.portfolio {
+  background-color: #d3937a;
+  border-radius: 40px;
+  font-size: 10%;
+}
+.card {
+  background-color: #8f3410;
+  max-width: 100%;
+  border-radius: 50px;
+}
+.card:hover {
+  background-color: #f0b7a1;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  overflow: hidden;
+}
+.card-text {
+  font-size: 20px;
+}
+.btn btn-primary {
+  background-color: #f0b7a1;
+  border: none;
+}
+.btn {
+  background-color: #8f3410;
+  color: white;
+  border-color: beige;
+}
+.btn:hover {
+  background-color: #f0b7a1;
+  border: none;
+}
+
+/*aboutme*/
+.about {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+p {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+p a {
+  color: black;
+}
+p a:hover {
+  color: coral;
+}
+/*footer*/
+.row {
+  text-align: center;
+}
+.copy {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+}
+a :hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.boton {
+  background-color: #8f3410;
+  color: white;
+}
